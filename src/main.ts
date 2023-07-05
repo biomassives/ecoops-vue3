@@ -13,8 +13,11 @@ app.use(createPinia())
 app.use(router)
 
 app.use(supabase, {
-  supabaseUrl: import.meta.env.VITE_SUPABASE_URL,
-  supabaseKey: import.meta.env.VITE_SUPABASE_KEY,
+//  supabaseUrl: import.meta.env.VITE_SUPABASE_URL,
+//  supabaseKey: import.meta.env.VITE_SUPABASE_KEY,
+  supabaseUrl: import.meta.env.VUE_APP_SUPABASE_URL,
+  supabaseKey: import.meta.env.VUE_APP_SUPABASE_KEY,
+
   options: {}
 })
 
