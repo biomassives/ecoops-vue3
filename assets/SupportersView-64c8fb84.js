@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-8a6123b4.js";const _={},c={class:"about"},n=s("h1",null,"Support Eco Ops App",-1),r=[n];function a(p,i){return t(),o("div",c,r)}const d=e(_,[["render",a]]);export{d as default};
